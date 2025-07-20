@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ps-rental-frontend
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run preview
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 20
