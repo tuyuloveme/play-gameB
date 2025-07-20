@@ -5,7 +5,7 @@ import Home from './screens/Home';
 import Riwayat from './screens/Riwayat';
 import Summary from './screens/Summary';
 import Setting from './screens/Setting';
-import Login from './auth/Login';
+import Login from './auth/login';
 import ProtectedRoute from './auth/ProtectedRoute';
 import { useAuthStore } from './store/authStore';
 import { useTransaksiStore } from './store/transaksiStore';
